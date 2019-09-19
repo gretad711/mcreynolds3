@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The McReynolds Family</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./resources/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./resources/images/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Questrial|Vast+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Jacques+Francois+Shadow|Rubik+Mono+One|Russo+One|Vast+Shadow&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="./resources/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/style3.css">
+  </head>
+  <body>
+
+
+
+    <!-- Navigation -->
+    <nav>
+      <div class="navigation">
+        <div class="logo">
+          <img src="./resources/images/logo3L-Purple.jpg" alt="McReynolds logo">
+          <p>McReynolds</p>
+        </div>
+        <ul>
+          <li><a class="active-btn" href="#registration">Register</a></li>
+          <li><a href="#history">History</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#committee">Committee</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn"><i class="fas fa-bars"></i>Menu</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="./index.html">Home</a>
+          <a class="active-btn" href="#registration">Register</a>
+          <a href="#history">History</a>
+          <a href="#schedule">Schedule</a>
+          <a href="#committee">Committee</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- Banner -->
+    <section class="banner">
+      <div class="banner-text">
+        <h1>McReynolds Family Reunion</h1>
+        <h2>Chicago, Illinois - July 2021</h2>
+      </div>
+    </section>
+
+
+
+    <!-- Regisration Form -->
+    <section id="registration" class=" registration color-background">
+      <div class="column-left left-color">
+        <h2>Registration</h2>
+      </div>
+      <div id="registration" class="registration-form">
+        <form class="register" action="index.html" method="post">
+          <label class="label-heading" for='name'>Name:</label>
+          <br>
+          <input placeholder="Enter Name" type="text" name="name" id="name">
+          <br><br><br>
+          <label class="label-heading" for="attendees">Number of Attendees:</label>
+          <br>
+          <label for="adults">Adults:</label>
+          <input type="number" name="adults" id="adults" value="1" step="1" min="1">
+          <br>
+          <label for="children">Children:</label>
+          <input type="number" name="children" value="0" step="1" min="0">
+          <br><br><br>
+          <label class="label-heading" for="T-Shirts">T-Shirts:</label>
+          <br>
+          <label for="tshirts">Number of T-Shirts:</label>
+          <input type="number" name="tshirts" value="0" step="1" min="0">
+          <br class="cell-view">
+          <label class="sub-heading" for="size">Size:</label>
+              <select name="size" id="size">
+                <option value="" disabled selected>Select your Size</option>
+                <option value="uni_small">Unisex: Small</option>
+        				<option value="uni_medium">Unisex: Medium</option>
+        				<option value="uni_large">Unisex: Large</option>
+                <option value="uni_xlarge">Unisex: X-Large</option>
+                <option value="uni_xxlarge">Unisex: XX-Large</option>
+                <option value="uni_xxxlarge">Unisex: XXX-Large</option>
+                <option value="missy_small">Missy: Small</option>
+                <option value="missy_medium">Missy: Medium</option>
+        				<option value="missy_large">Missy: Large</option>
+                <option value="missy_xlarge">Missy: X-Large</option>
+                <option value="missy_xxlarge">Missy: XX-Large</option>
+                <option value="missy_xxxlarge">Missy: XXX-Large</option>
+              </select>
+              <br><br><br>
+              <label class="label-heading" for="family">Updated List of Family Members:</label>
+              <br>
+              <textarea placeholder="Enter the members of your family..."name="family" id="large-view" rows="8" cols="70"></textarea>
+              <textarea placeholder="Enter the members of your family..."name="family" id="small-view" rows="12" cols="50"></textarea>
+              <br>
+              <input class="submit-btn" type="submit" value="SUBMIT">
+        </form>
+      </div>
+    </section>
+
+
+
+    <!-- History -->
+    <section class="history">
+      <div id="history" class="history-text blue-section">
+        <h2>McReynolds Family History</h2>
+        <div class="allenton">
+          <p>The McReynolds had their beginning in Allenton, <a href="https://www.britannica.com/place/Alabama-state">Alabama</a> in the early 1800s with a male slave named Anthony. Anthony was born in the <a href="https://www.britannica.com/place/West-Indies-island-group-Atlantic-Ocean">West Indies</a> in 1794 and spoke with a dialect. He had a dark complexion, was strong and had curly hair. He was a good carpenter and knew a great deal about farming, hunting and fishing. He was skilled with his hands and did good work. A white family with the surname of McReynolds brought Anthony to Allenton from <a href="https://www.britannica.com/place/Virginia-state">Virginia</a> for the purpose of breeding. During this era, slaves were given the last name of their masters, thus Anthony McReynolds.</p>
+          <div class="allenton_image photo">
+            <img src="./resources/images/allenton.jpg" alt="Map of Allenton, Alabama">
+          </div>
+          <p>After the signing of the <a href="https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation">Emancipation Proclamation</a> in 1863, the white McReynolds family became uneasy about having slaves and sold their land and slaves in Allenton and the surrounding areas to the white Dale family and then moved away. In order to gain better favor with their masters, some of Anthony's children and grandchildren changed their names from McReynolds to Dale and moved to Monroe county where their new masters owned land. </p>
+          <br><br>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Schedule -->
+    <section class="schedule">
+      <div id="schedule" class="schedule-text color-background">
+        <div class="column-left left-color">
+          <h2>Reunion Schedule</h2>
+        </div>
+        <h3>Check back soon for more details!</h3>
+      </div>
+    </section>
+
+
+
+    <!-- Planning Committee -->
+    <section id="committee">
+      <div class="committee-text  blue-section">
+        <h2>Planning Committee</h2>
+        <div class="committee-photos">
+          <div class="committee-one">
+            <div class="member michael">
+              <img src="./resources/images/michael.jpg" alt="Michael Jackson">
+              <h4>Michael Jackson</h4>
+            </div>
+            <div class="member jackie">
+              <img src="./resources/images/jackie.jpg" alt="Jackie Jackson">
+              <h4>Jackie Jackson</h4>
+            </div>
+            <div class="member tito">
+              <img src="./resources/images/tito.jpg" alt="Tito Jackson">
+              <h4>Tito Jackson</h4>
+            </div>
+          </div>
+          <div class="committee-two">
+            <div class="member jermaine">
+              <img src="./resources/images/jermaine.jpg" alt="Jermaine Jackson">
+              <h4>Jermaine Jackson</h4>
+            </div>
+            <div class="member marlon">
+              <img src="./resources/images/marlon.jpeg" alt="Marlon Jackson">
+              <h4>Marlon Jackson</h4>
+            </div>
+            <div class="member randy">
+              <img src="./resources/images/randy.jpg" alt="Randy Jackson">
+              <h4>Randy Jackson</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <div class="contact-text">
+        <div class="banner-text">
+        <h2><span>Contact</span><br> Planning Committee</h2>
+        </div>
+        <div class="contact-info">
+          <div class="contact-list">
+            <h3>Planning Committee Members:</h3>
+            <ul>
+              <li>Michael Jackson</li>
+              <li>Tito Jackson</li>
+              <li>Jackie Jackson</li>
+              <li>Jermaine Jackson</li>
+              <li>Marlon Jackson</li>
+              <li>Randy Jackson</li>
+            </ul>
+            <h3>For any general inquiries, please fill in the following contact form:</h3>
+          </div>
+          <div class="inquiry">
+            <form class="inquiry-form" action="index3.html" method="post">
+              <div class="form-right">
+                <input placeholder="Name" class="input-box" type="text" name="name" id="name">
+                <input placeholder="Email" class="input-box" type="text" name="email" id="email">
+                <input placeholder="Subject" class="input-box" type="text" name="subject" id="subject">
+              </div>
+              <div class="form-textarea">
+                <textarea placeholder="Message" name="message" id="message" rows="7" cols="30"></textarea>
+                <input class="contact-btn" type="submit" value="SUBMIT">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="bottom2top">
+        <a href="./index.html"><i class="fa fa-chevron-up edit"></i></a>
+        <a href="./index.html">BACK TO TOP</a>
+      </div>
+      <div class="social-media" role="link">
+        <span>Share on social media: </span>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+      </div>
+    </footer>
+
+
+
+    <script>
+      /* When the user clicks on the button,
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+    </script>
+
+
+  </body>
+</html>

@@ -1,0 +1,643 @@
+/* Universal Styles */
+
+html {
+  font-size: 14px;
+  line-height: 1.5rem;
+  font-family: "Questrial", sans-serif;
+}
+
+span {
+  font-weight: bold;
+}
+
+.banner-text {
+  background-color: rgb(0, 32, 128, .50);
+  width: 35%;
+  height: 70rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.color-background {
+  background-color: white;
+  border-bottom: .1rem solid #001a66;
+  display: flex;
+  color: #001a66;
+}
+
+.column-left {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+.left-color {
+  background-color: #e6ecff;
+}
+
+.blue-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #001a66;
+  color: white;
+}
+
+.blue-section h2 {
+  font-size: 4rem;
+  margin: 7rem 0 2rem 0;
+}
+
+
+
+
+/* Navigation Bar */
+nav {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #e6ecff;
+  border-bottom: .1rem solid #001a66;
+  width: 100%;
+  height: 5rem;
+  color: #001a66;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  margin: auto 2rem;
+}
+
+.logo img {
+  height: 4.5rem;
+}
+
+.logo p {
+  margin: auto 1rem;
+  font-size: 3rem;
+  font-family: "Vivaldi";
+}
+
+nav ul {
+  display: flex;
+  margin: auto 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #001a66;
+  padding: 0 1rem;
+  font-size: 1.35rem;
+}
+
+nav a:hover {
+  font-size: 1.6rem;
+}
+
+.active-btn {
+  background-color: #99b3ff;
+  padding: 1.5rem 1rem 2rem 1rem;
+}
+
+.dropdown {
+  display: none;
+}
+
+
+
+
+/* Banner */
+.banner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  border-bottom: .1rem solid #001a66;
+  background-image: url("../images/chicago3.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Vast Shadow", cursive;
+}
+
+.banner-text h1 {
+  margin: 1rem 3rem;
+  font-size: 4.5rem;
+  text-align: center;
+  line-height: 5.5rem;
+}
+
+.banner-text h2 {
+  margin: 2rem 3rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+
+
+/* Registration Form */
+input {
+  height: 1.5rem;
+  margin: 1rem 0 .50rem 0;
+}
+
+select {
+  height: 1.75rem;
+  width: 12rem;
+}
+
+textarea {
+  margin-top: 1rem;
+}
+
+.registration-form {
+  margin: 5rem auto;
+  font-size: 1.5rem
+}
+
+.label-heading {
+  font-size: 1.75;
+  font-weight: bold;
+  margin: 5rem 0;
+}
+
+.submit-btn {
+  background-color: #001a66;
+  color: #e6ecff;
+  height: 3rem;
+  width: 6rem;
+}
+
+.submit-btn:hover {
+  background-color: blue;
+}
+
+#small-view {
+  display: none;
+}
+
+
+
+/* History */
+.history {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/alabama_banner3.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.history-text {
+  margin-top: 50rem;
+}
+
+.allenton p {
+  margin: 5rem 15rem 5rem 15rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.allenton a {
+  color: #e6ecff;
+}
+
+
+
+
+/* Schedule */
+.schedule {
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule-text {
+  height: 50rem;
+}
+
+.schedule-text h3 {
+  margin: auto;
+  font-size: 2rem;
+}
+
+
+
+/* Planning Committee */
+.committee-photos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 100%;
+  margin: 5rem;
+}
+
+.member img {
+  height: 15rem;
+  width: 15rem;
+}
+
+.member {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto 3rem;
+}
+
+.member h4 {
+  font-size: 1.5rem;
+  margin: 1rem;
+  margin-bottom: 3rem;
+}
+
+
+
+/* Contact */
+.contact {
+  background-image: url("../images/emblem3.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.contact-text {
+  display: flex;
+  background-color: rgb(0, 32, 128, .75);
+}
+
+.contact h2 {
+  font-size: 3.5rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin: auto 4rem;
+}
+
+.contact h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.contact ul {
+  margin: 1rem 0 4rem 0;
+}
+
+.contact li {
+  padding: .25rem 0;
+}
+
+.inquiry {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.inquiry-form {
+  display: flex;
+}
+
+.form-right {
+  display: flex;
+  flex-direction: column;
+  margin: .15rem;
+}
+
+.form-right input {
+  width: 20rem;
+  height: 2rem;
+  font-size: 1.15rem;
+}
+
+.form-textarea {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-btn {
+  height: 3rem;
+  width: 6rem;
+  background-color: white;
+  color: #001a66;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.contact-btn:hover {
+  background-color: blue;
+  color: white;
+}
+
+#message {
+  font-size: 1.15rem;
+  padding: .45rem;
+}
+
+
+
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+footer a {
+  color: #001a66;
+  padding: 1.5rem;
+}
+
+.bottom2top {
+  background-color: #001a66;
+  height: 6rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom2top a {
+  color: white;
+  text-decoration: none;
+  margin: -1rem auto;
+}
+
+.social-media {
+  background-color: white;
+  color: #001a66;
+  font-size: 1.5rem;
+  height: 7.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media a:hover {
+  font-size: 3rem;
+}
+
+
+
+@media only screen and (max-width: 1820px) {
+  .banner-text h1 {
+    margin: 1rem 3rem;
+    font-size: 3.5rem;
+  }
+
+  .banner h2 {
+    font-size: 1.5rem;
+  }
+}
+
+
+@media only screen and (max-width: 1400px) {
+
+  /* Universal */
+  .column-left {
+    font-size: 2.5rem;
+  }
+
+
+
+  /* Banner */
+  .banner-text h1 {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+
+  .banner h2 {
+    font-size: 1.5rem;
+  }
+
+  .history {
+    background-image: url("../images/alabama_banner5.jpg");
+  }
+}
+
+
+
+@media only screen and (max-width: 968px) {
+
+  /* Navigation Bar */
+  .navigation {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  nav ul {
+  margin: auto;
+  }
+
+  .active-btn {
+    padding: 1.75rem 1rem;
+  }
+
+
+
+
+  /* Banner */
+  .banner-text {
+    width: 100%;
+  }
+
+  .banner-text h1 {
+    font-size: 5.5rem;
+    line-height: 5.5rem;
+  }
+
+  .banner h2 {
+    font-size: 2.5rem;
+    margin: 2rem 3rem;
+  }
+
+
+
+  /* Registration */
+  .registration-form {
+    margin: 5rem 1rem;
+  }
+
+
+
+
+  /* Contact */
+  .form-right input {
+    width: 24rem;
+  }
+
+  .inquiry-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-textarea {
+    margin: 0;
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  /* Universal */
+  .color-background {
+    flex-direction: column;
+  }
+
+  .column-left {
+    width: 100%;
+    height: 10rem;
+    border-bottom: .1rem solid #001a66;
+  }
+
+  .blue-section h2 {
+    font-size: 3.5rem;
+    margin: 7rem 1rem 2rem 1rem;
+  }
+
+
+  /* Navigation */
+    .navigation {
+    display: none;
+  }
+
+  .dropbtn {
+    background-color: inherit;
+    padding: 1rem;
+    font-size: 2.5rem;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 10rem;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+  }
+
+  .dropdown-content a {
+    color: #001a66;
+    padding: 1rem 1.25rem;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown a:hover {
+    background-color: #ddd;
+  }
+
+  .show {
+    display: block;
+  }
+
+
+
+
+  /* Banner */
+  .banner-text h1 {
+    font-size: 2.75rem;
+    line-height: 3rem;
+  }
+
+  .banner h2 {
+    font-size: 2rem;
+    margin: 2rem 3rem;
+  }
+
+
+  /* Registration */
+  #large-view {
+    display: none;
+  }
+
+  #small-view {
+    display: flex;
+  }
+
+
+  .history {
+    background-image: url("../images/alabama_banner6.jpg");
+  }
+
+
+  /* Schedule */
+  .schedule {
+    flex-direction: column;
+    text-align: center;
+    max-width: 100%;
+  }
+
+
+  /* History */
+  .allenton p {
+    margin: 5rem 4rem 5rem 4rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  .allenton img {
+    display: none;
+  }
+
+
+
+  /* Contact */
+  .contact-text {
+    flex-direction: column;
+  }
+
+  .contact-text .banner-text {
+    height: 10rem;
+  }
+
+  .contact-info {
+    margin: 5rem 2rem;
+  }
+
+  .contact h2 {
+    font-size: 2.75rem;
+  }
+
+  .contact-btn {
+    margin-right: auto;
+    margin-left: 0;
+  }
+
+  .form-right input, .form-textare {
+    width: 100%;
+  }
+}
