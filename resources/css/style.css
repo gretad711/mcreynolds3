@@ -399,7 +399,7 @@ footer a {
 
 
 
-@media only screen and (min-width: 1401) and (max-width: 1820px) {
+@media only screen and (min-width: 1401px) and (max-width: 1820px) {
   .banner-text h1 {
     margin: 1rem 3rem;
     font-size: 3.5rem;
@@ -411,7 +411,7 @@ footer a {
 }
 
 
-@media only screen and (min-width: 969) and (max-width: 1400px) {
+@media only screen and (min-width: 969px) and (max-width: 1400px) {
 
   /* Universal */
   .column-left {
@@ -437,7 +437,7 @@ footer a {
 
 
 
-@media only screen and (min-width: 769) and (max-width: 968px) {
+@media only screen and (min-width: 769px) and (max-width: 968px) {
 
   /* Navigation Bar */
   .navigation {
