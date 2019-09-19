@@ -411,7 +411,7 @@ footer a {
 }
 
 
-@media only screen and (min-width: 969px) {
+@media only screen and (min-width: 969px) and (max-width: 1400px) {
 
   /* Universal */
   .column-left {
@@ -437,7 +437,7 @@ footer a {
 
 
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 769px) and (max-width: 968px) {
 
   /* Navigation Bar */
   .navigation {
@@ -503,12 +503,10 @@ footer a {
 
 
 
-@media only screen and (min-width: 100px) {
+@media only screen and (min-width: 100px) and (max-width: 768px) {
   /* Universal */
   html {
     font-size: 24px;
-    line-height: 1.5rem;
-    font-family: "Questrial", sans-serif;
   }
 
   .color-background {
@@ -528,18 +526,18 @@ footer a {
 
 
   /* Navigation */
-  nav {
-    height: 8rem;
-  }
-
   .navigation {
     display: none;
+  }
+
+  .fa {
+    margin-right: 1rem;
   }
 
   .dropbtn {
     background-color: inherit;
     padding: 1rem;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     border: none;
     cursor: pointer;
   }
@@ -561,7 +559,7 @@ footer a {
 
   .dropdown-content a {
     color: #001a66;
-    padding: 1em 1.25rem;
+    padding: 1rem 1.25rem;
     text-decoration: none;
     display: block;
   }
@@ -621,10 +619,6 @@ footer a {
 
   .allenton img {
     display: none;
-  }
-
-  .history-text {
-    margin-top: 0;
   }
 
 
