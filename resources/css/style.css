@@ -522,18 +522,18 @@ footer a {
 
 
   /* Navigation */
-  .navigation {
-    display: none;
+  nav {
+    height: 5rem;
   }
 
-  .fa {
-    margin-right: 1rem;
+  .navigation {
+    display: none;
   }
 
   .dropbtn {
     background-color: inherit;
     padding: 1rem;
-    font-size: 2.5rem;
+    font-size: 5.5rem;
     border: none;
     cursor: pointer;
   }
