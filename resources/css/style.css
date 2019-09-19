@@ -523,7 +523,7 @@ footer a {
 
   /* Navigation */
   nav {
-    height: 5rem;
+    height: 8rem;
   }
 
   .navigation {
@@ -615,6 +615,10 @@ footer a {
 
   .allenton img {
     display: none;
+  }
+
+  .history-text {
+    margin-top: 0;
   }
 
 
