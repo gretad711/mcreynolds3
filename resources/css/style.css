@@ -505,6 +505,12 @@ footer a {
 
 @media only screen and (min-width: 100px) {
   /* Universal */
+  html {
+    font-size: 24px;
+    line-height: 1.5rem;
+    font-family: "Questrial", sans-serif;
+  }
+
   .color-background {
     flex-direction: column;
   }
@@ -533,7 +539,7 @@ footer a {
   .dropbtn {
     background-color: inherit;
     padding: 1rem;
-    font-size: 5.5rem;
+    font-size: 3.5rem;
     border: none;
     cursor: pointer;
   }
@@ -555,7 +561,7 @@ footer a {
 
   .dropdown-content a {
     color: #001a66;
-    padding: 4rem 4.25rem;
+    padding: 1em 1.25rem;
     text-decoration: none;
     display: block;
   }
