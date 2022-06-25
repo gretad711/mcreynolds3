@@ -11,7 +11,7 @@ span {
 }
 
 .banner-text {
-  background-color: rgb(0, 32, 128, .50);
+  background-color: rgba(9, 128, 0, 0.5);
   width: 35%;
   height: 70rem;
   display: flex;
@@ -21,9 +21,9 @@ span {
 
 .color-background {
   background-color: white;
-  border-bottom: .1rem solid #001a66;
+  border-bottom: .1rem solid rgba(9, 128, 0, 0.5);
   display: flex;
-  color: #001a66;
+  color: rgb(2, 25, 0);
 }
 
 .column-left {
@@ -37,18 +37,18 @@ span {
 }
 
 .left-color {
-  background-color: #e6ecff;
+  background-color: #e6ffe8;
 }
 
-.blue-section {
+.green-section {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: #001a66;
+  background-color: rgb(6, 68, 0);
   color: white;
 }
 
-.blue-section h2 {
+.green-section h2 {
   font-size: 4rem;
   margin: 7rem 0 2rem 0;
 }
@@ -62,11 +62,11 @@ nav {
   z-index: 1;
   display: flex;
   flex-direction: column;
-  background-color: #e6ecff;
-  border-bottom: .1rem solid #001a66;
+  background-color: #f2f9f1;
+  border-bottom: .1rem solid rgb(5, 65, 0);
   width: 100%;
   height: 5rem;
-  color: #001a66;
+  color: rgb(2, 25, 0);
 }
 
 .navigation {
@@ -96,18 +96,13 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #001a66;
+  color: rgb(2, 25, 0);
   padding: 0 1rem;
   font-size: 1.35rem;
 }
 
 nav a:hover {
-  font-size: 1.6rem;
-}
-
-.active-btn {
-  background-color: #99b3ff;
-  padding: 1.5rem 1rem 2rem 1rem;
+  font-size: 1.4rem;
 }
 
 .dropdown {
@@ -123,8 +118,8 @@ nav a:hover {
   flex-direction: column;
   width: 100%;
   color: white;
-  border-bottom: .1rem solid #001a66;
-  background-image: url("../images/chicago3.jpg");
+  border-bottom: .1rem solid rgb(5, 65, 0);
+  background-image: url("../images/chicagoGreen.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -148,45 +143,68 @@ nav a:hover {
 
 
 
-/* Registration Form */
-input {
-  height: 1.5rem;
-  margin: 1rem 0 .50rem 0;
+/* Welcome */
+.welcome {
+
 }
 
-select {
-  height: 1.75rem;
-  width: 12rem;
+#welcome-text {
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 3rem 10rem 2rem 10rem;
+  line-height: 2rem;
 }
 
-textarea {
-  margin-top: 1rem;
+.welcome-paragraph {
+  margin-bottom: 2rem;
 }
 
-.registration-form {
-  margin: 5rem auto;
-  font-size: 1.5rem
+
+
+/* Schedule */
+.schedule {
+  height: 50rem;
+  width: 65%;
+  overflow: scroll;
 }
 
-.label-heading {
-  font-size: 1.75;
-  font-weight: bold;
-  margin: 5rem 0;
+.schedule-full {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.submit-btn {
-  background-color: #001a66;
-  color: #e6ecff;
-  height: 3rem;
-  width: 6rem;
+.schedule-daily {
+  width: 80%;
+  margin: 2rem;
 }
 
-.submit-btn:hover {
-  background-color: blue;
+.event-name {
+  width: 100%;
+  text-align: center;
+  margin-bottom: .5rem;
 }
 
-#small-view {
-  display: none;
+.event-location {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.event-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.25rem;
+}
+
+.event-departure {
+  font-size: 1.25rem;
+  text-align: center;
+  margin: 4rem;
+}
+
+.name {
+  font-size: 2rem;
 }
 
 
@@ -207,61 +225,19 @@ textarea {
 }
 
 .allenton p {
-  margin: 5rem 15rem 5rem 15rem;
+  margin: 5rem 10rem 5rem 10rem;
   font-size: 1.5rem;
   line-height: 2.5rem;
 }
 
 .allenton a {
-  color: #e6ecff;
+  color: #e6ffe6;
 }
 
 
 
+/* Family Tree */
 
-/* Schedule */
-.schedule {
-  display: flex;
-  flex-direction: column;
-}
-
-.schedule-text {
-  height: 50rem;
-}
-
-.schedule-text h3 {
-  margin: auto;
-  font-size: 2rem;
-}
-
-
-
-/* Planning Committee */
-.committee-photos{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  max-width: 100%;
-  margin: 5rem;
-}
-
-.member img {
-  height: 15rem;
-  width: 15rem;
-}
-
-.member {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin: auto 3rem;
-}
-
-.member h4 {
-  font-size: 1.5rem;
-  margin: 1rem;
-  margin-bottom: 3rem;
-}
 
 
 
@@ -273,11 +249,12 @@ textarea {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  margin-top: -.2rem;
 }
 
 .contact-text {
   display: flex;
-  background-color: rgb(0, 32, 128, .75);
+  background-color: rgba(9, 128, 0, 0.75);
 }
 
 .contact h2 {
@@ -337,14 +314,14 @@ textarea {
   height: 3rem;
   width: 6rem;
   background-color: white;
-  color: #001a66;
+  color: rgb(2, 25, 0);
   display: block;
   margin-left: auto;
   margin-right: 0;
 }
 
 .contact-btn:hover {
-  background-color: blue;
+  background-color: green;
   color: white;
 }
 
@@ -363,12 +340,12 @@ footer {
 }
 
 footer a {
-  color: #001a66;
+  color: rgb(2, 25, 0);
   padding: 1.5rem;
 }
 
 .bottom2top {
-  background-color: #001a66;
+  background-color: rgb(6, 68, 0);
   height: 6rem;
   font-size: 1.5rem;
   display: flex;
@@ -385,7 +362,7 @@ footer a {
 
 .social-media {
   background-color: white;
-  color: #001a66;
+  color: rgb(2, 25, 0);
   font-size: 1.5rem;
   height: 7.5rem;
   display: flex;
@@ -478,8 +455,8 @@ footer a {
 
 
 
-  /* Registration */
-  .registration-form {
+  /* Welcome */
+  .welcome {
     margin: 5rem 1rem;
   }
 
@@ -505,18 +482,23 @@ footer a {
 
 @media only screen and (max-width: 768px) {
   /* Universal */
-  .color-background {
+  /* .color-background {
     flex-direction: column;
+    margin: auto 0;
   }
 
   .column-left {
     width: 100%;
-    height: 10rem;
-    border-bottom: .1rem solid #001a66;
-  }
+  } */
 
-  .blue-section h2 {
-    font-size: 3.5rem;
+  /* .column-left {
+    width: 10%;
+    height: 10rem;
+    border-bottom: .1rem solid rgb(2, 25, 0);
+  }*/
+
+  .green-section h2 {
+    font-size: 100.5rem;
     margin: 7rem 1rem 2rem 1rem;
   }
 
@@ -554,7 +536,7 @@ footer a {
   }
 
   .dropdown-content a {
-    color: #001a66;
+    color: rgb(2, 25, 0);;
     padding: 1rem 1.25rem;
     text-decoration: none;
     display: block;
@@ -571,7 +553,7 @@ footer a {
 
 
 
-  /* Banner */
+  /* Banner
   .banner-text h1 {
     font-size: 2.75rem;
     line-height: 3rem;
@@ -580,7 +562,7 @@ footer a {
   .banner h2 {
     font-size: 2rem;
     margin: 2rem 3rem;
-  }
+  } */
 
 
   /* Registration */
